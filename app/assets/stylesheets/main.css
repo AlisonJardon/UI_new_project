@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+.jumbotron{
+>>>>>>> 1c4a56f698af6fd574890cb89b75c0eecd66c0fe
 
  .jumbo{
 
@@ -52,8 +56,11 @@ img.blur {
 
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1c4a56f698af6fd574890cb89b75c0eecd66c0fe
 .card-deck {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -64,15 +71,25 @@ img.blur {
 .card-img-top {
   height: 15rem;
   }
+<<<<<<< HEAD
 
 .main_title {
   padding: 0.8em;
   color: white;
 }
+=======
+>>>>>>> 1c4a56f698af6fd574890cb89b75c0eecd66c0fe
 
 .secondary-title {
   padding: 0.5em;
   color: light;
+}
+
+.corner {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 div.bordure {
@@ -84,3 +101,17 @@ div.bordure {
   width: 70em;
   height: 15em;
 }
+<<<<<<< HEAD
+=======
+
+.background-again {
+  background-color: #002b36;
+}
+
+#CasParticulierCouleur {
+  border-color: white;
+  border-width: 0.5px;
+}
+
+
+>>>>>>> 1c4a56f698af6fd574890cb89b75c0eecd66c0fe
