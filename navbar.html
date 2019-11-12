@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -11,6 +12,40 @@
   </head>
 
   <body>
+
+    <!--********** Navbar **********-->
+    <!--********** no user logged in **********-->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-normal">My Eventbrite</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Home</a>
+        <a class="p-2 text-dark" href="#">New Event</a>
+      </nav>
+      <a class="btn btn-outline-primary" href="#">Sign up</a>
+    </div>
+
+    <!--********** Navbar **********-->
+    <!--********** a user logged in **********-->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-normal">My Eventbrite</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Home</a>
+        <a class="p-2 text-dark" href="#">New Event</a>
+      </nav>
+      <div class="dropdown">
+        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User Name</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Profile</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Log out</a>
+        </div>
+      </div>
+    </div>
+
+    <!--**********JavaScript **********-->
+    <script src="vendor/assets/javascripts/popper.min.js"></script>
+    <script src="vendor/assets/javascripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="vendor/assets/javascripts/bootstrap.min.js"></script>
 
   </body>
 
