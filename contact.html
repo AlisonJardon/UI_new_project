@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Navbars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="vendor/assets/stylesheets/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="app/assets/stylesheets/main.css">
+  </head>
+
+  <body>
+
+  	<div class="row w-25 mx-auto border border-light bg-dark p-5 mt-3 rounded">
+  		<h3 class="mb-3 text-warning col-12 p-0 mt-0">Contact Form</h3>
+  		<form class="w-100">
+
+  			<div class="form-group">
+  				<label for="input_object">Object</label>
+  				<select class="form-control" id="sel1">
+  					<option value="" selected disabled>Choose from list</option>
+  					<option>Problem no.1</option>
+  					<option>Problem no.2</option>
+  					<option>Problem no.3</option>
+  					<option>Problem no.4</option>
+  				</select>
+  			</div>
+
+  			<div class="form-row">
+  				<label for="input_name">Name</label>
+  				<input type="name" class="form-control" id="input_name" placeholder="Gaël Dubois">
+  			</div>
+
+  			<div class="form-row">
+  				<label for="input_email">Objet</label>
+  				<input type="email" class="form-control" id="input_email" placeholder="gael.dubois@gmail.com">
+  			</div>
+
+  			<div class="form-row">
+  				<label for="input_message">Message</label>
+  				<textarea type="message" class="form-control" id="input_message" placeholder="Blablabla"></textarea>
+  			</div>
+
+  			<div class="form-group row mt-3 mr-1 ml-1">
+  				<button type="submit" class="btn btn-block btn-primary mt-2">Submit</button>
+  			</div>
+
+  		</form>
+  	</div>
+
+    <!--**********JavaScript **********-->
+    <script src="vendor/assets/javascripts/popper.min.js"></script>
+    <script src="vendor/assets/javascripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="vendor/assets/javascripts/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
