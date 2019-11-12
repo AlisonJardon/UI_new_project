@@ -3,15 +3,139 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Authentification forms</title>
+    <title>Forms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="vendor/assets/stylesheets/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="vendor/assets/stylesheets/bootstrap.css">
     <link rel="stylesheet" href="app/assets/stylesheets/main.css">
   </head>
 
   <body>
+    <div class='container-fluid'>
+      <h1 class="my-5 text-center text-light">Forms</h1>
 
+      <div class="row w-75 mx-auto border border-light bg-dark p-5 mt-3 rounded">
+          <h2 class="text-center mb-3 text-warning">Sign up form</h2>
+        <form class="w-100">
+          <div class="form-row mb-4">
+              <div class="col-md-6 px-0">
+                <label for="inputFirstName">First name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="First name" autofocus='true'>
+              </div> <!-- /first name col -->
+
+              <div class="col-md-6 pl-2">
+                <label for="inputLastName">Last name</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Last name">
+              </div> <!-- /first name col -->
+            </div> <!-- /names row -->
+
+          <div class="form-row mb-4 w-50">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div> <!-- /email row -->
+
+          <div class="form-group form-row">
+            <div class="col px-0">
+              <label for="inputPassword">Password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div> <!-- /password row -->
+            <div class="col pl-2">
+              <label for="inputPassword">Confirm your password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div> <!-- /password confirmation row -->
+          </div> <!-- /password group row -->
+
+          <div class="form-row px-2">
+            <input type="checkbox">
+            <label class="form-check-label ml-3">I agree to give you my data and my soul.</label>
+          </div> <!-- /consent row-->
+
+          <div class="form-row pl-1">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="newsletterConsent">
+              <label class="custom-control-label" for="newsletterConsent">Please send me useless emails all the time</label>
+            </div>
+          </div> <!-- /newsletter row-->
+          
+          <div class="form-group row">
+            <button type="submit" class="btn btn-lg btn-primary mt-5 w-50 mx-auto">Join the dark side !</button>
+          </div> <!-- /submit row -->
+        </form> <!-- sign up form -->
+      </div> <!-- /row-->
+
+
+      <div class="row w-75 mx-auto border border-light bg-dark p-5 mt-3 rounded">
+          <h2 class="text-center mb-3 text-warning">Log in form</h2>
+        <form class="w-100">
+            <div class="form-group form-row">
+                <div class="col px-0">
+                  <label for="inputEmail">Email</label>
+                  <input type="eamil" class="form-control" id="inputEmail" placeholder="email">
+                </div> <!-- /email col -->
+                <div class="col pl-2">
+                  <label for="inputPassword">Password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div> <!-- /password col -->
+              </div> <!-- /login group row -->
+
+          <div class="form-row pl-1">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="rememberMe">
+              <label class="custom-control-label" for="rememberMe">Remember me</label>
+            </div>
+          </div> <!-- /newsletter row-->
+          
+          <div class="form-group row">
+            <button type="submit" class="btn btn-lg btn-primary mt-5 w-25 mx-auto">Log in</button>
+          </div> <!-- /submit row -->
+        </form> <!-- sign up form -->
+      </div> <!-- /row-->
+
+      <div class="row w-75 mx-auto mt-3 justify-content-lg-around">
+        <h2 class="col-12 text-center my-2">Other forms</h2>
+        <div class="col-md-5 border border-light bg-dark p-5 my-3 mx-1 rounded">
+          <h3 class="text-warning">Password recovery</h3>
+          <form class="w-100">
+            <div class="form-group form-row">
+              <div class="col px-0">
+                <label for="inputEmail">Email</label>
+                <input type="eamil" class="form-control" id="inputEmail" placeholder="email">
+              </div> <!-- /email col -->
+            </div> <!-- /email row -->
+              
+            <div class="form-group row">
+              <button type="submit" class="btn btn-lg btn-primary mt-5 w-100 mx-auto">Send me my password !</button>
+            </div> <!-- /submit row -->
+          </form> <!-- sign up form -->
+        </div> <!-- /col-md-5 -->
+        
+        <div class="col-md-5 border border-light bg-dark p-5 my-3 mx-1 rounded">
+          <h3 class="text-warning">Password change</h3>
+          <form class="w-100">
+            <div class="form-group form-row">
+                <div class="col px-0">
+                  <label for="inputPassword">New password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="new password">
+                </div> <!-- /password row -->
+                <div class="col pl-2">
+                  <label for="inputPassword">Confirm your new password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="once again">
+                </div> <!-- /password confirmation row -->
+              </div> <!-- /password group row -->
+
+              <div class="form-group form-row">
+                <div class="col px-0">
+                  <label for="inputPassword">Current password</label>
+                  <input type="password" class="form-control" id="inputPassword" placeholder="current password">
+                </div> <!-- /password row -->
+              </div> <!-- /password group row -->
+              
+            <div class="form-group row">
+              <button type="submit" class="btn btn-lg btn-primary mt-5 w-100 mx-auto">Change my password !</button>
+            </div> <!-- /submit row -->
+          </form> <!-- sign up form -->
+
+        </div> <!-- /col-md-5 -->
+      </div> <!-- /row -->
+    </div> <!-- /container-fluid -->
   </body>
-
 </html>
