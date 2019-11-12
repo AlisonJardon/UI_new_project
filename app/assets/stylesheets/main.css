@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+.card-deck {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.card-img-top {
+  height: 15rem;
+  }
+=======
+.main_title {
+  padding: 0.8em;
+  color: white;
+}
+
+.secondary-title {
+  padding: 0.5em;
+  color: light;
+}
+
+div.bordure {
+	border-bottom:1px solid white;
+}
+
+.landscape {
+  object-fit: cover;
+  width: 70em;
+  height: 15em;
+}
+>>>>>>> ea89d36ed4569ba5ed6bc68df4e29cd5e0292045
