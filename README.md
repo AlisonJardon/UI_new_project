@@ -16,6 +16,7 @@
 ├── banner.html
 ├── card.html
 ├── comments.html
+├── element.html
 ├── footer.html
 ├── index.html
 ├── navbar.html
@@ -34,6 +35,7 @@
     * une [navbar](navbar.html) et un [footer](footer.html) qui déchirent
     * des [cartes](card.html) et des [commentaires](comments.html) aux petits oignons
     * une [présentation de ressource](ressource.html) impressionnante
+    * et [la surprise du chef](element.html)
 
 * Des dossiers, presque comme si on bossait avec Rails
   * le fameux dossier `app`, qui contient les assets `images`, `javascripts` et `stylesheets` 'faits maison'
