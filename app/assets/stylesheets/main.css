@@ -39,7 +39,12 @@ div.bordure {
 }
 
 .background-again {
-  background-color: #002B36;
+  background-color: #002b36;
+}
+
+#CasParticulierCouleur {
+  border-color: white;
+  border-width: 0.5px;
 }
 
 
