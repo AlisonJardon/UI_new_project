@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .tiny_ban{
   min-height: 15em;
@@ -6,6 +7,10 @@
 
  .jumbo{
 display: flex;
+=======
+.jumbo{
+  display: flex;
+>>>>>>> a9a8861ab97b8705bfa93b4a755316d9b02516a2
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -49,11 +54,14 @@ img.blur {
 
 }
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> a9a8861ab97b8705bfa93b4a755316d9b02516a2
 .card-deck {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -64,14 +72,20 @@ img.blur {
 .card-img-top {
   height: 15rem;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a9a8861ab97b8705bfa93b4a755316d9b02516a2
 
 .main_title {
   padding: 0.8em;
   color: white;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a9a8861ab97b8705bfa93b4a755316d9b02516a2
 
 .secondary-title {
   padding: 0.5em;
@@ -86,7 +100,7 @@ img.blur {
 }
 
 div.bordure {
-	border-bottom:1px solid white;
+	border-bottom: 1px solid white;
 }
 
 .landscape {
@@ -94,7 +108,10 @@ div.bordure {
   width: 70em;
   height: 15em;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a9a8861ab97b8705bfa93b4a755316d9b02516a2
 
 .background-again {
   background-color: #002b36;
@@ -104,3 +121,7 @@ div.bordure {
   border-color: white;
   border-width: 0.5px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9a8861ab97b8705bfa93b4a755316d9b02516a2
