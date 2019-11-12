@@ -1,28 +1,72 @@
-<head>
- <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/main.css">
-  <link rel="stylesheet" type="text/css" href="vendor/assets/stylesheets/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="vendor/assets/javascripts/jquery-3.3.1.slim.min.js">
-  <link rel="stylesheet" type="text/css" href="vendor/assets/javascripts/popper.min.js">
-</head>
+
+<!DOCTYPE html>
+  <html>
+    <head>
+     <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/main.css">
+      <link rel="stylesheet" type="text/css" href="vendor/assets/stylesheets/bootstrap.css">
+
+
+    </head>
+
+  </header>
+      <!-- Navbar -->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Our original Atomic Design</h5>
+        <div class="dropdown">
+          <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our molecules and organisms</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+               <a class="dropdown-item" href="index.html">Index</a>
+            <a class="dropdown-item" href="navbar.html">Navbars</a>
+            <a class="dropdown-item" href="footer.html">Footers</a>
+            <a class="dropdown-item" href="authentification_form.html">Authentification forms</a>
+            <a class="dropdown-item" href="banner.html">Banners</a>
+            <a class="dropdown-item" href="card.html">Cards</a>
+            <a class="dropdown-item" href="ressource.html">Ressource</a>
+          <a class="dropdown-item" href="comments.html">Comments</a>
+          <a class="dropdown-item" href="element.html">Elements</a>
+          <a class="dropdown-item" href="contact.html">Contact</a>
+          </div>
+        </div>
+    </div>    
+
+  </header>
+
+  <body>
+
+    <div class="jumbotron jumbotron-fluid bg-dark center">
+
+      <div class="jumbotron-background">
+        <img src="app/assets/images/bg_1.jpg" class="blur">
+      </div>
+
+      <div class="container text-white">
+
+        <h1 class="display-4 ">Salut</h1>
+        <p class="lead center">Ceci est un jumbotron.</p>
+        <hr class="my-4">
+        <p class="center">Lorem ipsum...</p>
+        <button type="button" class="btn btn-primary ">Hello</button>
+
+      </div>
 
 
 
-<div class="jumbotron jumbotron-fluid  center">
+    </div>
 
-  <div class="jumbotron-background">
-    <img src="img/bg_1.jpg" class="blur ">
-  </div>
+    <div class="jumbotron jumbotron-fluid bg-dark tiny_ban">
+        <p class="center"style="font-size: 50px; font-weight: bold; ">Ceci est un petit jumbotron</p>
+        <div class="jumbotron-background">
+        <img src="app/assets/images/paris.jpg"alt="paris">
 
-  <div class="container text-white">
+      </div>
 
-    <h1 class="display-4 ">Salut</h1>
-    <p class="lead center">Je mange toujours mon vomi et je me porte bien .</p>
-    <hr class="my-4">
-    <p class="center">merci.</p>
-    <button type="button" class="btn btn-primary ">Vomi</button>
-
-  </div>
-  <!-- /.container -->
+    </div>
+    <!--**********JavaScript **********-->
+  <script src="vendor/assets/javascripts/popper.min.js"></script>
+  <script src="vendor/assets/javascripts/jquery-3.3.1.slim.min.js"></script>
+  <script src="vendor/assets/javascripts/bootstrap.min.js"></script>
+  </body>
 
 
-</div>
+
+  </html>
