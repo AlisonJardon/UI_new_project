@@ -13,29 +13,48 @@
     <div class='container-fluid'>
       <h1 class="my-5 text-center text-light">Comments</h1>
     
-      <div class="row pl-3">
-        <h2 class="col-12 pl-0">Comment molecule</h2>
-
-        <div class="card mb-3 border border-light">
-          <div class="row no-gutters">
-            <div class="col-1 pt-3 pl-3 ">
-              <img src="app/assets/images/chuck_norris.png" class="card-img" alt="user profile picture">
-            </div> <!-- /col profile picture -->
-            <div class="col">
-              <div class="card-body">
-                <h5 class="card-title text-primary mb-0">Chuck Norris</h5>
-                <p class="card-text mb-0">Il y a longtemps, j'ai fait un bras de fer avec ce prétentieux de Superman. Enjeu : le perdant devait porter son slip par-dessus un collant moulant. Je te laisse deviner qui a gagné...</p>
-                <p class="card-text"><small class="text-muted">Posté avant le début du temps.</small></p>
-              </div> <!-- /card-body -->
-            </div> <!-- /col comment-->
-          </div> <!-- /row -->
-          <hr class="border border-secondary w-75 mx-auto mt-0">
-        </div> <!-- /card -->
+      <div class="row pl-3 mb-5">
+        <div class="container">
+          <h2 class="col-12 pl-0">Comment molecule</h2>
+          <div class="card mb-3 border border-light">
+            <div class="row no-gutters">
+              <div class="col-1 pt-3 pl-3 ">
+                <img src="app/assets/images/chuck_norris.png" class="card-img" alt="user profile picture">
+              </div> <!-- /col profile picture -->
+              <div class="col">
+                <div class="card-body">
+                  <h5 class="card-title text-primary mb-0">Chuck Norris</h5>
+                  <p class="card-text mb-0">Il y a longtemps, j'ai fait un bras de fer avec ce prétentieux de Superman. Enjeu : le perdant devait porter son slip par-dessus un collant moulant. Je te laisse deviner qui a gagné...</p>
+                  <p class="card-text"><small class="text-muted">Posté avant le début du temps.</small></p>
+                </div> <!-- /card-body -->
+              </div> <!-- /col comment-->
+            </div> <!-- /row -->
+            <hr class="border border-secondary w-75 mx-auto mt-0">
+          </div> <!-- /card -->
+        </div>
       </div> <!-- /row -->
+    
+    
+    <div class="row justify-content-around">
+      <div class="col-md-5 p-2">
+        <h3>The text area...</h3>
+        <div class="card mb-3 border border-light">
+          <div class="card-body">
+            <h5 class="card-title">Nouveau commentaire</h5>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" autofocus="true"></textarea>
+          </div> <!-- /card-body -->
+        </div> <!-- /card -->
+      </div>
 
-    <div class="row pl-3">
-        <h2 class="col-12 pl-0">Comment text area</h2>
+      <div class="col-md-5">
+        <h3>... and a nice button.</h3>
+        <div class="text-center bg-dark">
+          <button type="submit" class="btn btn-outline-primary">Submit</button>
+        </div>
+      </div>
     </div>
+
+
 
     </div> <!-- /container-fluid -->
   </body>
