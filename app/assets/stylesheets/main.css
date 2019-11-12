@@ -1,0 +1,19 @@
+.main_title {
+  padding: 0.8em;
+  color: white;
+}
+
+.secondary-title {
+  padding: 0.5em;
+  color: light;
+}
+
+div.bordure {
+	border-bottom:1px solid white;
+}
+
+.landscape {
+  object-fit: cover;
+  width: 70em;
+  height: 15em;
+}
